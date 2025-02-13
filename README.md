@@ -1,4 +1,4 @@
-v# Kafka
+# Kafka
 
 ## Table of Contents
 
