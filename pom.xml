@@ -13,11 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>kafka-learning</name>
 	<description>Kafka Learning</description>
-	<modules>
-		<module>kafka-producer-wikimedia</module>
-	</modules>
 	<packaging>pom</packaging>
-
 	<url/>
 	<licenses>
 		<license/>
