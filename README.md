@@ -1,19 +1,31 @@
 # Kafka
 
 ## Table of Contents
-
-- [Kafka Listener in Spring Boot](kafka-listenerin-spring-boot)
+- [Running the App](#running-the-app)
+- [Kafka Listener in Spring Boot](#kafka-listener-in-spring-boot)
   - [What is a Kafka Listener](#what-is-a-kafka-listener)
   - [How Kafka Listener Works](#how-kafka-listener-works)
   - [Example of a Kafka Listener in Spring Boot](#example-of-a-kafka-listener-in-spring-boot)
   - [Breaking it Down](#breaking-it-down)
   - [Key Concepts](#key-concepts)
 
+## Running the App
+In two terminal windows/tabs, run the following commands
+> ensure you are in the directory of Kafka first
+```bash
+bin/zookeeper-server-start.sh config/zookeeper.properties
+```
+
+In your second terminal, run
+```bash
+bin/kafka-server-start.sh config/server.properties
+```
+
 ## Kafka Listener in Spring Boot
 
 ### What is a Kafka Listener
 
-A **Kafka Listener in Spring Boot** is a method that listens to messages from a Kafka topic.  It is typically used to consume message sprocuced by other services.
+A **Kafka Listener in Spring Boot** is a method that listens to messages from a Kafka topic.  It is typically used to consume messages produced by other services.
 
 ### How Kafka Listener Works
 
