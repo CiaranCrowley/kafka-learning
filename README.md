@@ -21,6 +21,13 @@ In your second terminal, run
 bin/kafka-server-start.sh config/server.properties
 ```
 
+Then run the `SpringBootProducetrApplication`.
+
+To verify that the producer is sending messages to the correct topic, run this command
+```bash
+bin/kafka-console-consumer.sh --topic TOPIC_NAME --from-beginning --bootstrap-server localhost:9092
+```
+
 ## Kafka Listener in Spring Boot
 
 ### What is a Kafka Listener
