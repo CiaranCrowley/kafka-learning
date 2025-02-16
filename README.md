@@ -12,11 +12,18 @@
 ## Running the App
 In two terminal windows/tabs, run the following commands
 > ensure you are in the directory of Kafka first
+> 
+```bash
+cd ~/kafka
+```
 ```bash
 bin/zookeeper-server-start.sh config/zookeeper.properties
 ```
 
 In your second terminal, run
+```bash
+cd ~/kafka
+```
 ```bash
 bin/kafka-server-start.sh config/server.properties
 ```
